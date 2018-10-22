@@ -366,15 +366,15 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"~/Documents/FacebookSDK",
-					"$(PROJECT_DIR)/../../../ios/Frameworks",
+					"$(PROJECT_DIR)/../../../ios/Frameworks/FacebookSDKs-iOS-4.37.0",
 					"$(PROJECT_DIR)/../../../ios/Pods",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
-					"${SRCROOT}/../../../ios/Pods/FBSDKCoreKit/FBSDKCoreKit",
-					"${SRCROOT}/../../../ios/Pods/FBSDKLoginKit/FBSDKLoginKit",
-					"${SRCROOT}/../../../ios/Pods/FBSDKShareKit/FBSDKShareKit",
+					"${SRCROOT}/../../../ios/Frameworks/FacebookSDKs-iOS-4.37.0/FBSDKShareKit.framework/Headers",
+					"${SRCROOT}/../../../ios/Frameworks/FacebookSDKs-iOS-4.37.0/FBSDKLoginKit.framework/Headers",
+					"${SRCROOT}/../../../ios/Frameworks/FacebookSDKs-iOS-4.37.0/FBSDKCoreKit.framework/Headers",
 				);
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				OTHER_LDFLAGS = "-ObjC";
@@ -391,15 +391,15 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"~/Documents/FacebookSDK",
-					"$(PROJECT_DIR)/../../../ios/Frameworks",
+					"$(PROJECT_DIR)/../../../ios/Frameworks/FacebookSDKs-iOS-4.37.0",
 					"$(PROJECT_DIR)/../../../ios/Pods",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
-					"${SRCROOT}/../../../ios/Pods/FBSDKCoreKit/FBSDKCoreKit",
-					"${SRCROOT}/../../../ios/Pods/FBSDKLoginKit/FBSDKLoginKit",
-					"${SRCROOT}/../../../ios/Pods/FBSDKShareKit/FBSDKShareKit",
+					"${SRCROOT}/../../../ios/Frameworks/FacebookSDKs-iOS-4.37.0/FBSDKShareKit.framework/Headers",
+					"${SRCROOT}/../../../ios/Frameworks/FacebookSDKs-iOS-4.37.0/FBSDKLoginKit.framework/Headers",
+					"${SRCROOT}/../../../ios/Frameworks/FacebookSDKs-iOS-4.37.0/FBSDKCoreKit.framework/Headers",
 				);
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				OTHER_LDFLAGS = "-ObjC";
